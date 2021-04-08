@@ -159,6 +159,9 @@ class KanjiCard {
     fill(216, 77, 106, 225);
     text(this.meaning, this.x, this.y + this.textSize);
     
+    textSize(this.textSize / 4);
+    fill(216, 77, 106, 225);
+    text(this.radical, this.x + 100, this.y + this.textSize / 3);
     pop();
   }
 }
